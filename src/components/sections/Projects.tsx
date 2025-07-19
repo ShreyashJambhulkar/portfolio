@@ -66,7 +66,7 @@ export default function Projects() {
                 : 'bg-blue-50 dark:bg-blue-900/30 text-primary dark:text-blue-300 hover:bg-blue-100 dark:hover:bg-blue-900/50'
             }`}
           >
-            Vishwatej's Projects
+            Vishwatej Projects
           </button>
           
           <button
@@ -77,7 +77,7 @@ export default function Projects() {
                 : 'bg-purple-50 dark:bg-purple-900/30 text-secondary dark:text-purple-300 hover:bg-purple-100 dark:hover:bg-purple-900/50'
             }`}
           >
-            Shreyash's Projects
+            Shreyash Projects
           </button>
           
           {/* Technology filters */}

@@ -134,7 +134,8 @@ export default function InteractiveCodeParticles() {
     const animateParticles = () => {
       setParticles(prevParticles => {
         return prevParticles.map(p => {
-          let { x, y, speedX, speedY, rotation, rotationSpeed } = p;
+          let { x, y, speedX, speedY, rotation } = p;
+          const rotationSpeed=p.rotationSpeed;
           
           // Distance from mouse
           const dx = mousePosition.x - x;

@@ -229,7 +229,7 @@ export default function Resume() {
                       <ul className="text-gray-500 dark:text-gray-400 list-disc list-inside space-y-2 mt-2">
                         <li>Deep Learning Specialization - Coursera</li>
                         <li>Algorithms and Data Structures - Princeton University</li>
-                        <li>Competitive Programmer's Core Skills - ITMO University</li>
+                        <li>Competitive Programmer Core Skills - ITMO University</li>
                         <li>Level 1 Workshop by The Robotic Forum (TRF) at VIT</li>
                       </ul>
                     </div>
@@ -403,7 +403,7 @@ export default function Resume() {
                           <div className="flex-shrink-0 mt-0.5">
                             <CheckCircleIcon />
                           </div>
-                          <span><strong>Ranked 3rd in VIT's Annual Coding Contest</strong> (2022)</span>
+                          <span><strong>Ranked 3rd in VIT Annual Coding Contest</strong> (2022)</span>
                         </li>
                       </ul>
                     </div>
@@ -890,7 +890,7 @@ export default function Resume() {
             <div className="flex-shrink-0 mt-0.5">
               <CheckCircleIcon />
             </div>
-            <span><strong>Best UI/UX Design Award</strong> at VIT's Annual Project Showcase 2023</span>
+            <span><strong>Best UI/UX Design Award</strong> at VIT Annual Project Showcase 2023</span>
           </li>
           <li className="flex items-start">
             <div className="flex-shrink-0 mt-0.5">
@@ -902,7 +902,7 @@ export default function Resume() {
             <div className="flex-shrink-0 mt-0.5">
               <CheckCircleIcon />
             </div>
-            <span><strong>Dean's List</strong> for academic excellence for 3 consecutive semesters</span>
+            <span><strong>Dean List</strong> for academic excellence for 3 consecutive semesters</span>
           </li>
         </ul>
       </div>
@@ -1087,7 +1087,7 @@ export default function Resume() {
                   : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600'
               }`}
             >
-              Vishwatej's Resume
+              Vishwatej Resume
             </a>
             <a 
               href="/files/Shreyash_Jambhulkar_Resume.pdf"
@@ -1098,7 +1098,7 @@ export default function Resume() {
                   : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600'
               }`}
             >
-              Shreyash's Resume
+              Shreyash Resume
             </a>
           </div>
         </div>

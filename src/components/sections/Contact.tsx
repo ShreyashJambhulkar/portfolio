@@ -161,7 +161,7 @@ export default function Contact() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <h4 className="text-xl font-bold mb-2 text-green-700 dark:text-green-300">Message Sent Successfully!</h4>
-                    <p className="mb-4 text-green-700 dark:text-green-300">Thank you for reaching out. We'll get back to you soon.</p>
+                    <p className="mb-4 text-green-700 dark:text-green-300">Thank you for reaching out. We will get back to you soon.</p>
                     <button
                       onClick={() => setSubmitStatus('idle')}
                       className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"

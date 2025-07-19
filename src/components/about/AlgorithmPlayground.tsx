@@ -70,7 +70,7 @@ export default function AlgorithmPlayground() {
     const compareEvents: number[][] = [];
     const swapEvents: number[][] = [];
     
-    let arr = array.slice();
+    const arr = array.slice();
     
     switch (algorithm.id) {
       case 'bubble': {
@@ -91,7 +91,7 @@ export default function AlgorithmPlayground() {
       case 'insertion': {
         // Insertion sort implementation
         for (let i = 1; i < arr.length; i++) {
-          let current = arr[i];
+          const current = arr[i];
           let j = i - 1;
           
           compareEvents.push([i, j]);
