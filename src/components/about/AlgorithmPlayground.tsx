@@ -283,7 +283,9 @@ export default function AlgorithmPlayground() {
         setIsPlaying(false);
       }
     } else if (algorithm.category === 'searching') {
-      const { compareEvents, found } = generateSearchingSteps();
+      const res = generateSearchingSteps();
+      if(!res) return;
+      const { compareEvents, found } = res;
       
       if (!compareEvents) return;
       
