@@ -140,6 +140,7 @@ export default function TechStarfieldWarp() {
       warpSpeed += (warpSpeedTarget - warpSpeed) * 0.05;
       
       // Create space background
+      if(ctx==null) return;
       ctx.fillStyle = colors.background;
       ctx.fillRect(0, 0, width, height);
       
