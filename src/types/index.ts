@@ -1,7 +1,7 @@
 // src/types/index.ts
 
 // src/types/index.ts
-export interface Project {
+export interface Projects {
   id: string;
   title: string;
   description: string;
@@ -20,7 +20,7 @@ export interface Project {
 // src/types/index.ts
 // Add this to your existing types file
 
-export interface ExtracurricularActivity {
+export interface ExtracurricularActivitys {
   id: string;
   title: string;
   organization?: string;
@@ -37,7 +37,7 @@ export interface ExtracurricularActivity {
 // src/types/index.ts
 // Add this to your existing types file
 
-export interface CompetitiveCoding {
+export interface CompetitiveCodings {
   memberId: string;
   platform: string;
   username: string;

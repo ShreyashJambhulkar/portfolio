@@ -1,7 +1,7 @@
 // src/data/competitive.ts
-import { CompetitiveCoding } from '@/types';
+import { CompetitiveCodings } from '@/types';
 
-export const vishwatejProfiles: CompetitiveCoding[] = [
+export const vishwatejProfiles: CompetitiveCodings[] = [
   {
     memberId: 'vishwatej',
     platform: 'Codeforces',
@@ -61,7 +61,7 @@ export const vishwatejProfiles: CompetitiveCoding[] = [
   }
 ];
 
-export const shreyashProfiles: CompetitiveCoding[] = [
+export const shreyashProfiles: CompetitiveCodings[] = [
   {
     memberId: 'shreyash',
     platform: 'LeetCode',

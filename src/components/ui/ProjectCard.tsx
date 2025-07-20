@@ -4,10 +4,10 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { Project } from '@/types';
+import { Projects } from '@/types';
 
 interface ProjectCardProps {
-  project: Project;
+  project: Projects;
 }
 
 export default function ProjectCard({ project }: ProjectCardProps) {

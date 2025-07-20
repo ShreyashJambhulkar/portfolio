@@ -4,10 +4,10 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import ImageGallery from './ImageGallery';
-import { ExtracurricularActivity } from '@/types';
+import { ExtracurricularActivitys } from '@/types';
 
 interface ActivityCardProps {
-  activity: ExtracurricularActivity;
+  activity: ExtracurricularActivitys;
 }
 
 export default function ActivityCard({ activity }: ActivityCardProps) {

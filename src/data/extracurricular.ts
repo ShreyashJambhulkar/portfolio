@@ -1,7 +1,7 @@
 // src/data/extracurricular.ts
-import { ExtracurricularActivity } from '@/types';
+import { ExtracurricularActivitys } from '@/types';
 
-export const activities: ExtracurricularActivity[] = [
+export const activities: ExtracurricularActivitys[] = [
   {
     id: 'designodyssey',
     title: 'Design Odyssey Finalist',

@@ -1,7 +1,7 @@
 // src/data/projects.ts
-import { Project } from '../types';
+import { Projects } from '../types';
 
-export const projects: Project[] = [
+export const projects: Projects[] = [
   {
     id: 'healthcareplatform',
     title: 'BookWellCare',

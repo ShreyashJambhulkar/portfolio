@@ -1,6 +1,6 @@
 // src/components/ui/CodingProfileCard.tsx
 import { motion } from 'framer-motion';
-import { CompetitiveCoding } from '@/types';
+import { CompetitiveCodings } from '@/types';
 
 const platformColors: { [key: string]: string } = {
   'Codeforces': 'bg-red-100 border-red-500 text-red-800 dark:bg-red-900/30 dark:border-red-400 dark:text-red-300',
@@ -17,7 +17,7 @@ const getPlatformColor = (platform: string) => {
 };
 
 interface CodingProfileCardProps {
-  profile: CompetitiveCoding;
+  profile: CompetitiveCodings;
 }
 
 export default function CodingProfileCard({ profile }: CodingProfileCardProps) {
